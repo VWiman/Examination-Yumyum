@@ -14,7 +14,7 @@ function ReceiptItem({ item }: ReceiptItemProps): ReactElement {
 				<span className="flex-1 border-b-2 border-dotted border-coal"></span>
 				<span className="inline ml-auto w-fit">{price * quantity} sek</span>
 			</p>
-			<span>{quantity} stycken</span>
+			<span className="mr-auto">{quantity} stycken</span>
 		</li>
 	);
 }
